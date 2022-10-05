@@ -1,0 +1,403 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header  {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 940px;
+}
+
+
+a {
+  color: #972727;
+
+}
+
+h1 {
+    padding: 20px;
+    margin-left: 20%;
+    color: #972727;
+   
+}
+
+.fila-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.columna-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.navFila-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    
+}
+
+footer div h4 {
+   margin-right: 20px;
+}
+
+.logo-style {
+    width: 8%;
+    padding-bottom: 5px; 
+}
+
+.ul-style {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.main-syle {
+    width: 100%;
+    max-width: 880px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    height: 980px;
+}
+
+body {
+    background-image: url(../images/fondopage.jpg);
+    background-size: cover;
+}
+
+.aside-contenedor {
+    color: #972727;
+    margin-left: 30px;
+    margin: 5%;
+    width: 100%;
+    max-width: 260px;
+    text-align: center; 
+    margin-top: 5%;
+    padding-top: 5%;
+    height:820px;
+}
+
+aside img {
+    background-size: contain;
+    width: 150px;
+    
+}
+
+aside ul,li {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.article-index {
+    width: 100%;
+    max-width:856px;
+    height:750px;
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenIndex {
+    margin-bottom: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(../images/index.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.article-p {
+    text-align: left;
+    margin-top: 5%;
+    padding: 15px;
+}
+footer {
+    color: #FFFceb;
+    background-color: #64829B;
+    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+
+.borde {
+    border: 2px solid #CCCCCC;
+    margin-top: 5px;
+}
+
+.icono-ig {
+    position: relative;  
+    left: 250px;
+    bottom: 6px;
+    width: 40px;
+    height: 35px;
+
+}
+
+
+
+/*................................Html Productos style ........................................*/
+
+.text-descripcion {
+    background-color: #ffc752;
+    opacity: 0.8;
+    height: 182px;
+}
+
+.borde-headerProductos {
+    border-bottom: 2px solid #972727 ;
+}
+
+.article-productos {
+    width: 100%;
+    max-width:706px;
+    height:350px;
+    margin-left: 5px;
+    padding: 4%;
+}
+
+.productos-h3Style {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+
+
+
+
+/*........................Html Contacto style............................................... */
+
+
+
+
+
+
+.margen-contactoNav {
+    margin-bottom: 10px;
+}
+
+.form-contactoText {
+    font-size: 40px;
+    margin-bottom:30px;
+}
+
+.contacto-contenedor {
+    color: #972727;
+    background-color: #669966;
+    opacity: 0.8;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    text-align: left; 
+    margin: 5%;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    height:450px;
+    }
+
+.boton-borrar {
+    margin-top: 10px;
+    width: 30%;
+}
+    
+.boton-enviar {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+
+
+
+/*.........................Html Productos Nosotros ............................................. */
+
+
+
+
+
+
+.contenedor-imagenNosotros {
+       
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 400px;
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+
+
+.contenedor-texto1Nosotros {
+    color: #972727 ;
+    padding-top: 15%;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.style-texto2Nosotros {
+    color:#972727  ;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tam-articleNosotros {
+  width: 800px;
+  height:350px;
+  
+}
+
+.tam-article2Nosotros {
+    width: 798px;
+    height:70px;
+    
+}
+
+.tam-article3Nosotros {
+    width: 816px;
+    height:350px;
+    margin-left: 63px;
+}
+
+.text-descripcionNosotros {
+    background-color: #64829B;
+    text-align: justify;
+    opacity: 0.92;
+    height: 60px;
+    padding: 20px;
+}
+
+.margen-texto {
+    
+    margin-left: 40px;
+}
+
+.color-textoFinal {
+    color: #05011c;
+}
+
+.fontext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/*................................Html Productos Usos ................................. */
+
+
+
+
+
+.background {
+    background-image: url(../images/usos/flower.jpg) ;
+    opacity: 0.87;
+}
+
+.fontexthead {
+    color: #000;
+    opacity: 0.8;
+    background-color: darkgrey;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fontext-nav {
+    color: #000;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fonstyle-main {
+    
+    font-style: italic;
+    
+}
+
+.borde-headerUsos {
+    border-bottom: 2px solid #000 ;
+} 
+
+
+.color-fondo1 {
+    position: fixed ;
+    z-index: 2;
+    width: 550px;
+    height: 40px;
+    opacity: 0.95;
+    background-color: darkgrey;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 3%;
+}
+
+.color-fondo2 {
+    position: sticky;
+    top: 5px;
+    width: 650px;
+    height: 750px;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+.color_fondoAside {
+    position: fixed;
+    top: 152px;
+    right: 160px; 
+    width:150px;
+    height: 270px;
+    opacity: 0.95;
+    background-color: #000;
+    font-size: 18px;
+    padding: 2%;
+    color: bisque;
+}
+
+
+.margen-usosParrafo {
+    margin-bottom: 10px;
+}
+
+.margen-usosAsideParrafo {
+    margin-bottom: 20px;
+}
+
+.padding-top {
+    padding-top: 20%;
+}
+
+.bolt-class {
+    font-weight: bold;
+}
+
+.fondo-spoty {
+    position: fixed;
+    top: 482px;
+    right: 65px; 
+
+}

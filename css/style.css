@@ -64,6 +64,12 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav ul li:hover {
+    margin-right: 20px;
+    transform: scale(1.2 );
+   
+}
+
 .main-syle {
     width: 100%;
     max-width: 880px;
@@ -153,8 +159,21 @@ footer {
     height: 35px;
 
 }
+/* ......animacion home......... */
 
+@keyframes productos {
+    0% {display: none; }
+    100% {rotate: 360deg;}
+    
+}
 
+.animacion-home {
+    animation-name: productos;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+   
+}
 
 /*................................Html Productos style ........................................*/
 
@@ -238,7 +257,7 @@ footer {
 
 
 
-/*.........................Html Productos Nosotros ............................................. */
+/*.........................Html  Nosotros ............................................. */
 
 
 
@@ -379,10 +398,10 @@ footer {
     top: 152px;
     right: 160px; 
     width:150px;
-    height: 270px;
+    height: 210px;
     opacity: 0.95;
     background-color: #000;
-    font-size: 18px;
+    font-size: 16px;
     padding: 2%;
     color: bisque;
 }
@@ -406,7 +425,7 @@ footer {
 
 .fondo-spoty {
     position: fixed;
-    top: 482px;
+    top: 422px;
     right: 65px; 
 
 }

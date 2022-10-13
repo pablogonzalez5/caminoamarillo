@@ -1,134 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos/Camino amarillo</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <header>
-        <div class="fila-flex borde-headerProductos " >
-            <img class="animacion-home logo-style" src="../images/logo.png" alt="Imagen institucional">
-            <h1>Nuestros productos</h1>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Camino Amarillo</title>
+      </head>
 
+<body>
+    <header class="container-fluid header-color" >
+        <div class="row  " >
+            <div class=" col-4  p-2" ><img class="logo-style animacion-home " src="../images/logo.png" alt="Imagen institucional"></div>
+            <div class=" col-8 m-auto"> <h1>Nuestros Productos</h1></div>
+           
         </div >
+
         <nav >
-            <ul class="navFila-flex ul-style" >
-                 <li>  <a href="../index.html">Home</a> </li>
-                 <li>  <a href="quienes.html">Quienes somos</a> </li>
-                 <li>  <a href="productos.html">Productos</a>  </li>
-                 <li>  <a href="usos.html">Usos y beneficios</a>  </li>
-                 <li>  <a href="contacto.html">Contacto</a>  </li>
-             </ul>
+            <ul class="nav nav-tabs justify-content-end ">
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle header-color" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menú</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../index.html">Home</a> </li>
+                    <li><a class="dropdown-item" href="quienes.html">Quienes somos</a> </li>
+                    <li><a class="dropdown-item" href="productos.html">Productos</a>  </li>
+                    <li><a class="dropdown-item" href="usos.html">Usos y beneficios</a>  </li>
+                    <li><a class="dropdown-item" href="contacto.html">Contacto</a>  </li>
+                    
+                  </ul>
+                </li>
+                
+              </ul>
+            
          </nav>
+
+
     </header>
 
 
     <main >
-        <div class="borde contenedorProducto"> 
-            <h3 class="productos-h3Style ">Box transformacíon y energía positiva</h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/box.jpg" alt="box de regalo">
-                <p class="text-descripcion article-p ">Las resinas abren los espacios, movilizan las energías que permanecen estancadas en los lugares.
-                    Las hierbas son las que transmutan, quitan, elevan, combaten, curan.
-                    Propósito: el humo permite que la energía estancada circule.
-                    Necesidad: que intencionalidad le voy a dar, que pretendo generar.
-                    Beneficios: Limpiar, descargar, purificar, sanar, proteger.
-               <b>Código:BoxTransformacíon</b></p>
-            </article>
+        <div class=" container ">
+          
+            
+        <div class="borde-boton row ">
+            <h5 class="productos-h3Style ">Macetas impresas en 3D</h5> 
+
+            <div class="m-2 p-2 col-md-4 "  >
+                <img src="../images/product/cabeza.jpg" class=" img-fluid mx-auto d-block" alt="box de regalo">
+            </div>        
+               
+            <div  class=" m-4 p-3 col-md-6 text-descripcion mx-auto d-block  " >
+                <p >Hermosas macetas impresas con tecnología 3D.
+                    Varios diseños originales. </p>
+                <b >Código:</b>
+                <p>MACETA3D</p>
+            </div>
+            
         </div>
 
-        <div class="borde contenedorProducto">
-            <h3 class="productos-h3Style ">Box limpieza y purificacíon
-            </h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/miniBoxarmoni.jpg" alt="mini box de regalo">
-                <p class="article-p  text-descripcion">Sahumerios
-                    Romero, ruda e incienso:
-                    Combinación de tres fuerzas poderosas naturales de la tierra, 
-                    energía en su estado mas puro, preparadas para usarse como protección,
-                     armonización espiritual y limpieza de ambientes, rejuveneciendo el aura
-                      de los espacios y personas, atrayendo energías renovadas de amor, 
-                      equilibrio emocional y espiritual.
-                <b>Código:BOX2</b></p>
-            </article>
+        <div class="borde-boton row ">
+            <h5 class="productos-h3Style ">Sahumerios artesanales</h5> 
+
+            <div class="m-2 p-2 col-md-4 "  >
+                <img src="../images/product/sahum.jpg" class=" img-fluid mx-auto d-block" alt="box de regalo">
+            </div>        
+               
+            <div  class=" m-4 p-3 col-md-6 text-descripcion mx-auto d-block  " >
+                <p >Palo santo
+                    Encender un sahumerio Palo Santo es un acto purificador. Aumenta la sensación de calma
+                    y bienestar atrayendo energías positivas y armoniosas a todos los que están en contacto con ese humo
+                     sagrado. Lavanda y olíbano. Neutraliza energías negativas transformándolas en 
+                     positivas generando equilibrio y armonía.
+                    El humo sagrado de ambas fragancias reviven un poderoso protector del hogar. </p>
+                <b >Código:</b>
+                <p>SAHUMERIO</p>
+            </div>
+            
         </div>
 
-        <div class="borde contenedorProducto">
-            <h3 class="productos-h3Style ">Pirámide Energética </h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/piram1.jpg" alt="piramide">
-                <p class="article-p  text-descripcion">La pirámide al quemarse emite poderosas vibraciones de limpieza y purificación. La forma piramidal lleva nuestra energía o petición a los cuatro puntos cardinales del espacio universal, transformando y modificando el amor divino.
-                    Olíbano: purificación.  Romero: limpieza
-                <b>Código:PIRAMIDE</b></p>
-            </article>
+
+
+        <div class="borde-boton row ">
+            <h5 class="productos-h3Style ">Box transformacíon y energía positiva</h5> 
+
+            <div class="m-2 p-2 col-md-4 "  >
+              <img src="../images/product/box.jpg" class=" img-fluid mx-auto d-block" alt="box de regalo">
+            </div>        
+                   
+            <div  class=" m-4 p-3 col-md-6 text-descripcion mx-auto d-block  " >
+              <p >Las resinas abren los espacios, 
+              movilizan las energías que permanecen estancadas en los lugares.
+              Las hierbas son las que transmutan, quitan, elevan, combaten, curan.
+              Propósito: el humo permite que la energía estancada circule.
+              Necesidad: que intencionalidad le voy a dar, que pretendo generar.
+              Beneficios: Limpiar, descargar, purificar, sanar, proteger. </p>
+              <b >Código:</b>
+              <p>BoxTransformacíon</p>
+            </div>
+                
         </div>
 
-        <div class="borde contenedorProducto">
-            <h3 class="productos-h3Style ">Pastillas de defumación activada </h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/cubo.jpg" alt="esencia en cubo ">
-                <p class="article-p text-descripcion">Salvia blanca: Protectora ancestral, madre del 
+        <div class="borde-boton row ">
+            <h5 class="productos-h3Style ">Pirámide Energética </h5> 
+
+            <div class="m-2 p-2 col-md-4 "  >
+                <img src="../images/product/piram1.jpg" class=" img-fluid mx-auto d-block" alt="box de regalo">
+            </div>        
+                 
+            <div  class=" m-4 p-3 col-md-6 text-descripcion mx-auto d-block  " >
+               <p >La pirámide al quemarse emite poderosas vibraciones de limpieza y purificación. La forma piramidal lleva nuestra energía o petición a los cuatro puntos cardinales del espacio universal, transformando y modificando el amor divino.
+                Olíbano: purificación.  Romero: limpieza</p>
+                <b >Código:</b>
+                <p>PIRAMIDE</p>
+            </div>
+               
+          
+        </div>
+
+        <div class="borde-boton  row ">
+            <h5 class="productos-h3Style ">Vaso térmico pizzarra</h5> 
+
+            <div class="m-2 p-2 col-md-4 "  >
+                <img src="../images/product/pizzarra.jpg" class=" img-fluid mx-auto d-block" alt="box de regalo">
+            </div>        
+               
+            <div  class=" m-4 p-3 col-md-6 text-descripcion mx-auto d-block  " >
+                <p >Exclusicivo vaso térmico. ¡ Puedes escribir el mensaje para el día,
+                    un recordatorio o dedicarle una frase a alguien que conoces !</p>
+                <b >Código:</b>
+                <p>CUBO</p>
+            </div>    
+        </div>
+
+        <div class="borde-boton  row ">
+            <h5 class="productos-h3Style ">Pastillas de defumación activada </h5> 
+
+            <div class="m-2 p-2 col-md-4 "  >
+                <img src="../images/product/cubo.jpg" class=" img-fluid mx-auto d-block" alt="box de regalo">
+            </div>        
+               
+            <div  class=" m-4 p-3 col-md-6 text-descripcion mx-auto d-block  " >
+                <p >Salvia blanca: Protectora ancestral, madre del 
                     amor incondicional, conductora de luz y energía positiva, ilumina la atmósfera 
                     donde se utilice, dejando tonos amor y armonía, eleva al alma en consciencia 
                     pura de evolución y superación personal. Anís , canela y romero: estimulan la 
                     prosperidad, amplifican el poder interior de la intuición conectando nuestro 
                     cuerpo material a nuestra esencia infinita, atrayendo luz a nuestro camino, creando 
-                    nuevas  posibilidades para realizar metas.
-                    
-                <b>Código:CUBO</b></p>
-            </article>
+                    nuevas  posibilidades para realizar metas. </p>
+                <b >Código:</b>
+                <p>TERMICO</p>
+            </div>
+            
         </div>
-        
-        <div class="borde contenedorProducto">
-            <h3 class="productos-h3Style ">Sahumerios artesanales</h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/sahum.jpg" alt="Sahumerios artesanales">
-                <p class="article-p text-descripcion">Palo santo
-                    Encender un sahumerio Palo Santo es un acto purificador. Aumenta la sensación de calma
-                    y bienestar atrayendo energías positivas y armoniosas a todos los que están en contacto con ese humo
-                     sagrado. Lavanda y olíbano. Neutraliza energías negativas transformándolas en 
-                     positivas generando equilibrio y armonía.
-                    El humo sagrado de ambas fragancias reviven un poderoso protector del hogar.
-                    
-                <b>Código:SAHUMERIO</b></p>
-            </article>
-        </div>
-
-        <div class="borde contenedorProducto">
-            <h3 class="productos-h3Style ">Macetas impresas en 3D</h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/cabeza.jpg" alt="Macetas impresas esencia en 3D">
-                <p class="article-p text-descripcion" >Hermosas macetas impresas con tecnología 3D.
-                    Varios diseños originales.
-                <b>Código:MACETA3D</b></p>
-            </article>
-        </div>
-
-        <div class="borde contenedorProducto">
-            <h3 class="productos-h3Style ">Vaso térmico pizzarra</h3>
-            <article class="fila-flex article-productos  ">
-                <img src="../images/product/pizzarra.jpg" alt="Vaso térmico pizzarra">
-                <p class="article-p text-descripcion">Exclusicivo vaso térmico. ¡ Puedes escribir el mensaje para el día,
-                    un recordatorio o dedicarle una frase a alguien que conoces ! 
-                    Incluye fibrón. <b>Código: TERMICO</b></p>
-                    
-            </article>
-        </div>
+      
     </main>
    
     <footer>
         <div  class="fila-flex " >
-            <h4>Camino amarillo  </h4>
-            <h4>Almacen de regalos </h4>    
-            <h4> Copyrigth  2022</h4>
+            <h6>Camino amarillo  </h6>
+            <h6>Almacen de regalos </h6>    
+            <h6> Copyrigth  2022</h6>
         </div>
         <div class="icono-ig" >
             <a class="icono-ig" href="https://www.instagram.com/_camino_amarillo_/"><img  class="icono-ig" src="../images/new-ig-icon-1.png" alt="vaso térmico"></a>  
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

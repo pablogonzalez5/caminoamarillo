@@ -10,6 +10,7 @@ body {
 }
 
 
+
 .logo-style {
     width: 25%;
    margin-left: 2%;
@@ -36,8 +37,8 @@ nav
   ul {
         li:hover
         {
-            margin-right:5%;
-            transform: scale(1.2 );
+            
+            transform: translateY(10%);
         }
     }
 }

@@ -180,6 +180,7 @@ footer div h6 {
     font-weight: bold;
     font-size: 18px;
     padding: 3%;
+    z-index: -1;
 }
 
 .color-fondo2 {
@@ -194,6 +195,7 @@ footer div h6 {
     font-size: 16px;
     padding: 2%;
     color: bisque;
+    z-index: -1;
 }
 
 .bolt-class {

@@ -1,4 +1,6 @@
-
+$principal-color: #972727;
+$borde-color: #CCCCCC;
+$fuente_2: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 body {
@@ -10,7 +12,7 @@ body {
 
 .logo-style {
     width: 25%;
-   margin-left: 20px;
+   margin-left: 2%;
 }
 
 
@@ -31,33 +33,32 @@ body {
 
 nav
 {
-
   ul {
-        li:hover {
-           margin-right: 20px;
-           transform: scale(1.2 );
-                 }
+        li:hover
+        {
+            margin-right:5%;
+            transform: scale(1.2 );
+        }
     }
 }
 
 
 .header-color {
-    color: #972727;
-
-
+    color: $principal-color;
 }
 
 .borde {
-    border: 3px solid #CCCCCC;
+    border: 3px solid $borde-color;
     margin: 9%;
 }
 
 aside {
     ul {
-    li   {
-    margin-top: 20px;
-    list-style: none;}
-   }
+        li {
+         margin-top: 5%;
+         list-style: none;
+        }
+    }
 }
 
 footer {
@@ -68,12 +69,16 @@ footer {
     font-family: 'Source Code Pro', monospace;
     box-shadow: rgb(20, 1, 8)  0px -10px 40px;
     background-image: linear-gradient(to bottom, rgb(225, 220, 220),#738799,#556c7f, rgb(43, 42, 42));
+    
+    div {
+      h6 {margin: 3%;}
+    }
 }
 
 .icono-ig {
     position: fixed;
     bottom:1%;
-    right: 29px;
+    right: 3%;
     width: 40px;
     height: 35px;
 
@@ -82,24 +87,47 @@ footer {
 .fila-flex {
     display: flex;
  text-align: left;
-
 }
 
-footer { 
-    div {
-    h6 {
-   margin: 15px;}
-        }
-}
+
+
 
 /*........ html   productos  .........*/ 
 
 
 
+@import "productos";
+
 
 
 
 /*........ html   quienes somos  .........*/ 
+
+.texto1Nosotros {
+    color: $principal-color ;
+    border-radius: 1%;
+    text-align: justify;
+    opacity: 0.82;
+    background-image: radial-gradient(#677785,#95a7b6, #ebeff3);
+   transition: all 3seg;
+    font-size: 16px;
+    font-family: $fuente_2;
+}
+
+
+/*........ html   usos  .........*/ 
+
+
+@import "usos";
+
+
+/*........ html  contacto  .........*/ 
+
+
+@import "contacto";
+
+
+/*........ media  .........*/ 
 
 
 @media (min-width:660px) {

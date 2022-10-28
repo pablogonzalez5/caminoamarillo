@@ -4,7 +4,7 @@ body {
 
 .logo-style {
   width: 25%;
-  margin-left: 20px; }
+  margin-left: 2%; }
 
 @keyframes productos {
   0% {
@@ -19,7 +19,7 @@ body {
   animation-duration: 4s; }
 
 nav ul li:hover {
-  margin-right: 20px;
+  margin-right: 5%;
   transform: scale(1.2); }
 
 .header-color {
@@ -30,7 +30,7 @@ nav ul li:hover {
   margin: 9%; }
 
 aside ul li {
-  margin-top: 20px;
+  margin-top: 5%;
   list-style: none; }
 
 footer {
@@ -41,11 +41,13 @@ footer {
   font-family: 'Source Code Pro', monospace;
   box-shadow: #140108 0px -10px 40px;
   background-image: linear-gradient(to bottom, #e1dcdc, #738799, #556c7f, #2b2a2a); }
+  footer div h6 {
+    margin: 3%; }
 
 .icono-ig {
   position: fixed;
   bottom: 1%;
-  right: 29px;
+  right: 3%;
   width: 40px;
   height: 35px; }
 
@@ -53,11 +55,123 @@ footer {
   display: flex;
   text-align: left; }
 
-footer div h6 {
-  margin: 15px; }
-
 /*........ html   productos  .........*/
+.text-descripcion {
+  background-color: #ffc752;
+  opacity: 0.8; }
+
+.borde-boton {
+  border-bottom: 2px solid #CCCCCC;
+  margin: 9%; }
+
+@keyframes nosotros {
+  0% {
+    transform: translate(0px, 90px); }
+  100% {
+    transform: translate(0px, 20px); } }
+
+.animacion-nosotros {
+  animation-name: nosotros;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; }
+
 /*........ html   quienes somos  .........*/
+.texto1Nosotros {
+  color: #972727;
+  border-radius: 1%;
+  text-align: justify;
+  opacity: 0.82;
+  background-image: radial-gradient(#677785, #95a7b6, #ebeff3);
+  transition: all 3seg;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+/*........ html   usos  .........*/
+.background {
+  background-image: url(../images/usos/flower.jpg);
+  opacity: 0.89; }
+
+.color-fondo1 {
+  background-color: darkgrey;
+  opacity: 0.95;
+  padding: 3%;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: -1; }
+
+.color-fondo2 {
+  background-color: white;
+  opacity: 0.8;
+  padding: 5%; }
+
+.color_fondoAside {
+  background-color: #000;
+  opacity: 0.95;
+  padding: 2%;
+  font-size: 16px;
+  color: bisque;
+  z-index: -1; }
+
+.bolt-class {
+  font-weight: bold; }
+
+.margen-usosParrafo {
+  margin-bottom: 5%; }
+
+.fontext-nav {
+  color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+.fontexthead {
+  background-color: darkgrey;
+  opacity: 0.8;
+  padding: 1%;
+  color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px; }
+
+.fonstyle-main {
+  font-style: italic; }
+
+.borde-headerUsos {
+  border-bottom: 2px solid #000; }
+
+.padding-top {
+  padding-top: 20%; }
+
+/*........ html  contacto  .........*/
+.form-contactoText {
+  text-shadow: 3px 2px 10px  #3a0909;
+  font-size: 25px;
+  margin-bottom: 5%; }
+
+.contacto-contenedor {
+  color: #972727;
+  display: flex;
+  flex-direction: column;
+  background-color: #64829B;
+  box-shadow: #140108 30px 15px 30px;
+  opacity: 0.8;
+  margin: auto;
+  width: 60vw;
+  text-align: left;
+  margin: 5%;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%; }
+
+.boton-borrar {
+  width: 50%;
+  margin-top: 5%; }
+
+.boton-enviar {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 50%; }
+
+/*........ media  .........*/
 @media (min-width: 660px) {
   .fila-flex {
     flex-direction: row; } }

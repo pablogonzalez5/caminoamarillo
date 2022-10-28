@@ -1,0 +1,72 @@
+@mixin back_colorOpacidad($color, $opacidad, $padding) {
+   background-color: $color;
+    opacity: $opacidad;
+    padding: $padding;
+}
+
+@mixin fontex-black {
+    color: #000;
+    font-family: $fuente_2;
+}
+
+.background {
+    background-image: url(../images/usos/flower.jpg) ;
+    opacity: 0.89;
+}
+
+.color-fondo1 {
+    @include back_colorOpacidad(darkgrey,0.95,3% );
+    font-weight: bold;
+    font-size: 18px;
+    z-index: -1;
+}
+
+.color-fondo2 {
+    @include back_colorOpacidad(rgb(255, 255, 255),0.8,5% );
+   
+}
+
+.color_fondoAside {
+    @include back_colorOpacidad(#000,0.95,2% );
+    font-size: 16px;
+    color: bisque;
+    z-index: -1;
+}
+
+.bolt-class {
+    font-weight: bold;
+}
+
+.margen-usosParrafo {
+    margin-bottom: 5%;
+}
+
+.fontext-nav {
+    @include fontex-black;
+}
+
+
+.fontexthead {
+    @include back_colorOpacidad(darkgrey,0.8,1% );
+    @include fontex-black;
+    font-size: 40px;
+   }
+
+
+
+.fonstyle-main {
+
+    font-style: italic;
+
+}
+
+.borde-headerUsos {
+    border-bottom: 2px solid #000 ;
+}
+
+
+
+.padding-top {
+    padding-top: 20%;
+}
+

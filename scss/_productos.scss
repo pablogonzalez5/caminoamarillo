@@ -6,21 +6,8 @@
 
 
 .borde-boton {
-    border-bottom: 2px solid $borde-color;
+    border-bottom: 3px solid $borde-color;
     margin: 9%;
 }
 
-@keyframes nosotros {
-    0% {transform: translate(00px,90px); }
-    100% {transform: translate(00px,20px);}
-
-}
-
-.animacion-nosotros {
-    animation-name: nosotros;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-
-}
 

@@ -1,0 +1,24 @@
+.texto1Nosotros {
+    color: $principal-color ;
+    border-radius: 1%;
+    text-align: justify;
+    opacity: 0.82;
+    background-image: radial-gradient(#677785,#95a7b6, #ebeff3);
+   transition: all 3seg;
+    font-size: 16px;
+    font-family: $fuente_2;
+}
+
+@keyframes nosotros {
+    0% {transform: translate(00px,90px); }
+    100% {transform: translate(00px,20px);}
+
+}
+
+.animacion-nosotros {
+    animation-name: nosotros;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+
+}

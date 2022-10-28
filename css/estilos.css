@@ -60,8 +60,19 @@ footer {
   opacity: 0.8; }
 
 .borde-boton {
-  border-bottom: 2px solid #CCCCCC;
+  border-bottom: 3px solid #CCCCCC;
   margin: 9%; }
+
+/*........ html   quienes somos  .........*/
+.texto1Nosotros {
+  color: #972727;
+  border-radius: 1%;
+  text-align: justify;
+  opacity: 0.82;
+  background-image: radial-gradient(#677785, #95a7b6, #ebeff3);
+  transition: all 3seg;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 @keyframes nosotros {
   0% {
@@ -74,17 +85,6 @@ footer {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 2s; }
-
-/*........ html   quienes somos  .........*/
-.texto1Nosotros {
-  color: #972727;
-  border-radius: 1%;
-  text-align: justify;
-  opacity: 0.82;
-  background-image: radial-gradient(#677785, #95a7b6, #ebeff3);
-  transition: all 3seg;
-  font-size: 16px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 /*........ html   usos  .........*/
 .background {
